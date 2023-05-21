@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="_,App/o_xiekesIF?Be|">state</variable></variables><block type="pxt-on-start" id="0a3MAbJ@yG|-zH@[RzBn" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="*S%~DNh|6A5o_~[|:G+,"><field name="VAR" id="_,App/o_xiekesIF?Be|">state</field><value name="VALUE"><shadow type="math_number" id="F2|c/a$-7]jsqy.3ly4A"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_forever" id="Cm,MJypkg6?%m]~11vEb" x="286" y="160"></block><block type="device_forever" id="D3^^W:4G5+74:1=j0*VK" x="566" y="151"><statement name="HANDLER"><block type="controls_if" id="=}:7l]72x}0oXHXVmlr*"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="=eMYKb$wQScby0rNk3bJ"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="J6FcjIbc`i22B^As1Vk_"><field name="VAR" id="_,App/o_xiekesIF?Be|">state</field></block></value><value name="B"><shadow type="math_number" id="sZ#/t@=%_FOCE/5)jS%d"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="basic_show_icon" id="/~.c(f):7E$Gz`(`03hF"><field name="i">IconNames.Happy</field></block></statement></block></statement></block><block type="control_wait_us" id="OH5rR~4]?K.iYgXv^-=x" disabled="true" x="827" y="489"><value name="micros"><shadow type="math_number_minmax" id=".9:JU}xcpJ*S?,S3!08P" disabled="true"><mutation min="0" max="6000" label="Micros" precision="0"></mutation><field name="SLIDER">3000000</field></shadow></value><next><block type="device_show_leds" id="3#wMx,H5RB_[Xj]?HAC:" disabled="true"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="control_wait_us" id="6TETD6t9X)^Rm40s~Dk~" disabled="true"><value name="micros"><shadow type="math_number_minmax" id="i`RnrF!Y=1bk1C]tJ|Xa" disabled="true"><mutation min="0" max="6000" label="Micros" precision="0"></mutation><field name="SLIDER">6000</field></shadow></value><next><block type="device_show_leds" id="jGC9khtOzT??vt:P`W;o" disabled="true"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="control_wait_us" id=":|cC,ReO$hMIyM,~3uL)" disabled="true"><value name="micros"><shadow type="math_number_minmax" id="F#oMre[JL~-zo)G;!*:?" disabled="true"><mutation min="0" max="6000" label="Micros" precision="0"></mutation><field name="SLIDER">500000</field></shadow></value><next><block type="device_show_leds" id="WLAg;e=LBF/A)GbKYFdY" disabled="true"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="control_wait_us" id="dg#(YFM;$#Nh,bp_-xgV" disabled="true"><value name="micros"><shadow type="math_number_minmax" id="eHB7Q}S#?pQap%X;.?^{" disabled="true"><mutation min="0" max="6000" label="Micros" precision="0"></mutation><field name="SLIDER">6000</field></shadow></value><next><block type="basic_show_icon" id="$i+t)#z#;K_q~Igs`J#)" disabled="true"><field name="i">IconNames.Happy</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>
